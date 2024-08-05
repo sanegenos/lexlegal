@@ -13,25 +13,25 @@ export default function Home() {
   return (
     <ParallaxProvider>
       <HeroWithVideoBackground 
-        videoSrc="/videoplayback.mp4" 
+        videoSrc="videoplayback.mp4" 
         title="Your Legal Partner for Success" 
         description="Experience unparalleled legal expertise" 
       />
       <Features id="features" />
       <ParallaxSection 
-        imageUrl="/img/Birlesik-Krallik-Sponsor-Lisansi-Basvurularinda-Gercek-Sirketin-Tanimi-ve-Kriterleri-scaled.jpg" 
+        imageUrl="img/Birlesik-Krallik-Sponsor-Lisansi-Basvurularinda-Gercek-Sirketin-Tanimi-ve-Kriterleri-scaled.jpg" 
         title="Our Commitment to Excellence" 
         description="Providing top-notch legal services for over two decades" 
       />
       <Testimonials id="testimonials" />
       <ParallaxSection 
-        imageUrl="/img/Firsat-Karti-Nedir-Kimler-Basvurabilir.jpg" 
+        imageUrl="img/Firsat-Karti-Nedir-Kimler-Basvurabilir.jpg" 
         title="Expert Legal Advice" 
         description="Guiding you through complex legal challenges" 
       />
       <FAQ id="faq" />
       <ParallaxSection 
-        imageUrl="/img/Ingiltere-icin-Visa-2.jpg" 
+        imageUrl="img/Ingiltere-icin-Visa-2.jpg" 
         title="Client-Centered Approach" 
         description="We prioritize your needs and interests" 
       />
