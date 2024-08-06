@@ -16,6 +16,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -30,4 +34,38 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.timeline-item {
+  width: 50%;
+  padding: 20px;
+}
+
+.left-timeline {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right-timeline {
+  left: 50%;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 4px solid #3182ce;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.left-timeline::before {
+  right: -10px;
+}
+
+.right-timeline::before {
+  left: -10px;
 }
