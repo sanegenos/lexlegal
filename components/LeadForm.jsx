@@ -1,7 +1,7 @@
 // components/LeadForm.jsx
 export default function LeadForm({ id }) {
     return (
-      <section id={id} className="py-20 bg-gray-800 text-white">
+      <section id={id} className="py-20 bg-[#000080]/0	text-white">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Request a Free Consultation</h2>
           <p className="text-lg mb-8">Fill out the form below to receive a free consultation with our legal experts.</p>
@@ -9,7 +9,9 @@ export default function LeadForm({ id }) {
             <input className="p-3 rounded-lg text-gray-900" type="text" placeholder="Your Name" required />
             <input className="p-3 rounded-lg text-gray-900" type="email" placeholder="Your Email" required />
             <textarea className="p-3 rounded-lg text-gray-900" placeholder="Your Message" required />
-            <button className="bg-gray-900 text-white py-3 rounded-lg font-bold">Submit</button>
+            <button type="submit" className="w-full bg-white text-[#000080] font-semibold py-2 rounded hover:bg-gray-100 transition duration-300">
+                            SEND
+            </button>
           </form>
         </div>
       </section>

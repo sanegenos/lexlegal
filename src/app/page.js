@@ -8,42 +8,46 @@ import FAQ from "../../components/FAQ";
 import LeadForm from "../../components/LeadForm";
 import ParallaxSection from "../../components/ParallaxSection";
 import Timeline from "../../components/Timeline";
+import Header from '../../components/Header';
+import Banner from '../../components/Banner';
 
 
 export default function Home() {
   return (
-    <ParallaxProvider>
-      <HeroWithVideoBackground 
-        videoSrc="/videoplayback.mp4" 
-        title="Your Legal Partner for Success" 
-        description="Experience unparalleled legal expertise" 
-      />
-      <Timeline />
-      <ParallaxSection 
-        imageUrl="/img/Birlesik-Krallik-Sponsor-Lisansi-Basvurularinda-Gercek-Sirketin-Tanimi-ve-Kriterleri-scaled.jpg" 
-        title="Our Commitment to Excellence" 
-        description="Providing top-notch legal services for over two decades" 
-      />
-      <Features id="features" />
-      <Testimonials id="testimonials" />
-      <ParallaxSection 
-        imageUrl="/img/Firsat-Karti-Nedir-Kimler-Basvurabilir.jpg" 
-        title="Expert Legal Advice" 
-        description="Guiding you through complex legal challenges" 
-      />
-      <FAQ id="faq" />
-      <ParallaxSection 
-        imageUrl="/img/Ingiltere-icin-Visa-2.jpg" 
-        title="Client-Centered Approach" 
-        description="We prioritize your needs and interests" 
-      />
-      <LeadForm id="contact" />
-
-      <footer className="bg-white text-black py-10 text-center">
-        <p className="text-sm">
-          &copy; {new Date().getFullYear()} Lex Legal. All Rights Reserved.
-        </p>
-      </footer>
-    </ParallaxProvider>
+    <>
+      <Header/>
+      <Banner/>
+      <ParallaxProvider>
+        <HeroWithVideoBackground 
+          videoSrc="/videoplayback.mp4" 
+          title="Your Legal Partner for Success" 
+          description="Experience unparalleled legal expertise" 
+        />
+        <Timeline />
+        <ParallaxSection 
+          imageUrl="/img/Birlesik-Krallik-Sponsor-Lisansi-Basvurularinda-Gercek-Sirketin-Tanimi-ve-Kriterleri-scaled.jpg" 
+          title="Our Commitment to Excellence" 
+          description="Providing top-notch legal services for over two decades" 
+        />
+        <Features id="features" />
+        <Testimonials id="testimonials" />
+        <ParallaxSection 
+          imageUrl="/img/Firsat-Karti-Nedir-Kimler-Basvurabilir.jpg" 
+          title="Expert Legal Advice" 
+          description="Guiding you through complex legal challenges" 
+        />
+        <FAQ id="faq" />
+        <ParallaxSection 
+          imageUrl="/img/Ingiltere-icin-Visa-2.jpg" 
+          title="Client-Centered Approach" 
+          description="We prioritize your needs and interests" 
+        />
+        <footer id="contact" className="bg-white text-black py-10 text-center">
+          <p className="text-sm">
+            &copy; {new Date().getFullYear()} Lex Legal. All Rights Reserved.
+          </p>
+        </footer>
+      </ParallaxProvider>
+    </>
   );
 }

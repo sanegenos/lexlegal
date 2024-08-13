@@ -22,11 +22,11 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}>
+    <nav className={`fixed left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'top-0 bg-[#000080]/75 shadow-md' : 'top-14 bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            <Link href="/" className={`font-bold text-xl ${isScrolled ? 'text-gray-800' : 'text-white'}`}>
+            <Link href="/" className={`font-bold text-xl}`}>
               Lex Legal
             </Link>
           </div>
@@ -46,7 +46,7 @@ export default function Navbar() {
 
 function NavLink({ href, children, isScrolled }) {
   return (
-    <Link href={href} className={`px-3 py-2 rounded-md text-sm font-medium ${isScrolled ? 'text-gray-800 hover:bg-gray-200' : 'text-white hover:bg-gray-700'}`}>
+    <Link href={href} className={`px-3 py-2 rounded-md text-sm font-medium ${isScrolled ? 'hover:bg-gray-200 hover:text-black' : 'text-white hover:bg-gray-700'}`}>
       {children}
     </Link>
   );
