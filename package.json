@@ -2,13 +2,12 @@
   "name": "my-law-firm-landing",
   "version": "0.1.0",
   "private": true,
-"scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint",
-  "export": "next export"
-},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
     "@react-google-maps/api": "^2.19.3",
     "aos": "^2.3.4",
@@ -20,6 +19,7 @@
     "react-scroll-parallax": "^3.4.5"
   },
   "devDependencies": {
+    "netlify-cli": "^17.34.0",
     "postcss": "^8.4.40",
     "tailwindcss": "^3.4.7"
   }
