@@ -21,13 +21,49 @@ html {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  color: #3F5073;
+  font-size: 1rem; /* Использование rem для гибкости */
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100vw;
+}
+
+.widelogo {
+  width: 300rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 0.875rem; /* Уменьшение размера шрифта на меньших экранах */
+  }
+  .widelogo {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  body {
+    font-size: 1rem; /* Увеличение размера шрифта на больших экранах */
+  }
+}
+
+/* .custom-liner {
+  height: 1px;
+  background: -o-radial-gradient(10px 10px, #99A6BF 80%, transparent 80%) 0 0 / 30px 100%;
+  background: radial-gradient(10px 10px, #99A6BF 80%, transparent 80%) 0 0 / 30px 100%;
+} */
+
+.delay-appear {
+  transition: opacity 0.1s ease-in-out 0.1s; /* delay */
+  opacity: 0; /* Изначально блок скрыт */
+}
+
+.delay-appear.show {
+  opacity: 0.7; /* После задержки блок станет видимым */
 }
 
 @layer utilities {
@@ -36,36 +72,11 @@ body {
   }
 }
 
-.timeline-item {
-  width: 50%;
-  padding: 20px;
+.hidden {
+  display: none;
 }
 
-.left-timeline {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.right-timeline {
-  left: 50%;
-}
-
-.timeline-item::before {
-  content: '';
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background-color: white;
-  border: 4px solid #3182ce;
-  border-radius: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.left-timeline::before {
-  right: -10px;
-}
-
-.right-timeline::before {
-  left: -10px;
+.show {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
 }
