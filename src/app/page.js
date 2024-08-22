@@ -44,53 +44,53 @@ export default function Home() {
           description="We prioritize your needs and interests" 
         />
             
-        <footer class="bg-gray-900 text-white py-10 flex flex-col">
+        <footer className="bg-gray-900 text-white py-10 flex flex-col">
 
-          <div class="container mx-auto flex flex-col md:flex-row justify-between items-center max-w-7xl border-b border-gray-700 pb-10">
-              <div class="mb-8 md:mb-0 text-center md:text-left">
-                  <div class="flex items-center justify-center md:justify-start mb-4">
-                      {/* <img src="logo.png" alt="Logo" class="h-10 w-25 mr-2"/> */}
-                      <span class="text-2xl font-bold">LexLegal</span>
+          <div className="container mx-auto flex flex-col md:flex-row justify-between items-center max-w-7xl border-b border-gray-700 pb-10">
+              <div className="mb-8 md:mb-0 text-center md:text-left">
+                  <div className="flex items-center justify-center md:justify-start mb-4">
+                      {/* <img src="logo.png" alt="Logo" className="h-10 w-25 mr-2"/> */}
+                      <span className="text-2xl font-bold">LexLegal</span>
                   </div>
               </div>
 
-              <div class="mb-8 md:mb-0">
-                  <ul class="flex space-x-8 text-sm justify-center">
-                      <li><a href="#" class="hover:text-gray-400">Our Lawyers</a></li>
-                      <li><a href="#" class="hover:text-gray-400">Practice Area</a></li>
-                      <li><a href="#" class="hover:text-gray-400">Blog</a></li>
-                      <li><a href="#" class="hover:text-gray-400">Contact</a></li>
+              <div className="mb-8 md:mb-0">
+                  <ul className="flex space-x-8 text-sm justify-center">
+                      <li><a href="#" className="hover:text-gray-400">Our Lawyers</a></li>
+                      <li><a href="#" className="hover:text-gray-400">Practice Area</a></li>
+                      <li><a href="#" className="hover:text-gray-400">Blog</a></li>
+                      <li><a href="#" className="hover:text-gray-400">Contact</a></li>
                   </ul>
               </div>
           </div>
-          <div class="container mx-auto flex flex-col md:flex-row justify-between items-center max-w-7xl py-10">
+          <div className="container mx-auto flex flex-col md:flex-row justify-between items-center max-w-7xl py-10">
 
-              <div class="mb-8 md:mb-0 text-center md:text-left">
-                  <p class="text-sm">
+              <div className="mb-8 md:mb-0 text-center md:text-left">
+                  <p className="text-sm">
                       ADDRESS: Marylebone, London W1H 5PW | Meridien House, 42 Upper Berkeley S
                   </p>
-                  <p class="text-sm">
-                      <span class="font-semibold">Monday - Friday:</span> 10:00 - 6:00 PM
+                  <p className="text-sm">
+                      <span className="font-semibold">Monday - Friday:</span> 10:00 - 6:00 PM
                   </p>
               </div>
               
-              <div class="container mx-auto text-center flex flex-col items-center">
-                  <div class="mt-4 flex justify-center md:justify-end space-x-4">
-                      <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
-                      <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
-                      <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+              <div className="container mx-auto text-center flex flex-col items-center">
+                  <div className="mt-4 flex justify-center md:justify-end space-x-4">
+                      <a href="#" className="text-white"><i className="fab fa-instagram"></i></a>
+                      <a href="#" className="text-white"><i className="fab fa-linkedin"></i></a>
+                      <a href="#" className="text-white"><i className="fab fa-youtube"></i></a>
                   </div>
-                  <div class="text-sm ">
+                  <div className="text-sm ">
                       © {new Date().getFullYear()} Lex Legal. All Rights Reserved.
                   </div>
               </div>
                   
-              <div class="text-center md:text-right">
-                  <p class="text-sm">
-                      <a href="mailto:info@lexlegal.com" class="hover:text-gray-400">info@lexlegal.com</a>
+              <div className="text-center md:text-right">
+                  <p className="text-sm">
+                      <a href="mailto:info@lexlegal.com" className="hover:text-gray-400">info@lexlegal.com</a>
                   </p>
-                  <p class="text-sm">
-                      <a href="tel:+447739699968" class="hover:text-gray-400">+44 77 3969 9968</a>
+                  <p className="text-sm">
+                      <a href="tel:+447739699968" className="hover:text-gray-400">+44 77 3969 9968</a>
                   </p>
               </div>
           </div>
