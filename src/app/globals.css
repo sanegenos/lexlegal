@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  font-family: "Lora", serif;
+  font-family: "Roboto", serif;
   font-optical-sizing: auto;
   color: #3F5073;
   font-size: 1rem; /* Использование rem для гибкости */
