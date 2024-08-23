@@ -46,7 +46,7 @@ html {
 body {
   font-optical-sizing: auto;
   color: #3F5073;
-  font-size: 1rem; /* Использование rem для гибкости */
+  /* font-size: 1rem; Использование rem для гибкости */
   background-color: white;
   margin: 0;
   padding: 0;
