@@ -18,7 +18,7 @@ export default function Header() {
                 </div>
 
                 <div>
-                    <a href="tel:+447739699968" className="text-white hover:text-blue-900 bg-blue-700 hover:bg-blue-300 rounded-2xl py-3 px-6 mb-3 border-b border-blue-700 hover:border-blue-900 uppercase">Bİzİmle hemen İletİşİme geçİn</a>
+                    <a href="tel:+447739699968" className="text-white hover:text-blue-900 bg-blue-700 hover:bg-blue-300 rounded-2xl py-3 px-6 mb-3 border-b border-blue-700 hover:border-blue-900 uppercase text-xl">Bİzİmle hemen İletİşİme geçİn</a>
                 </div>
             </div>
 

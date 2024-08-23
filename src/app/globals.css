@@ -16,12 +16,34 @@
   }
 }
 
+@font-face {
+  font-family: 'Calibre-Light';
+  src: url('/fonts/Calibre-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BodyFont';
+  src: url('/fonts/KelsonSans-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Применяем шрифт для заголовков
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'KelsonSans-Light', sans-serif;
+} */
+
+body {
+  font-family: 'Calibre-Light', sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Roboto", serif;
   font-optical-sizing: auto;
   color: #3F5073;
   font-size: 1rem; /* Использование rem для гибкости */

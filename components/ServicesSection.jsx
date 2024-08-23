@@ -15,9 +15,9 @@ const ServiceCard = ({ image, title, content }) => {
           className="w-full h-auto md:h-48 object-cover"
         />
         <div className="pt-6">
-          <h4 className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">{title}</h4>
+          <h4 className="text-xl font-semibold text-gray-800 mb-4">{title}</h4>
           <a
-            className="text-blue-600 font-semibold hover:underline flex items-center"
+            className="text-blue-600 font-semibold hover:underline flex items-center text-xl"
             href="#"
             onClick={(e) => {
               e.preventDefault();
@@ -34,7 +34,7 @@ const ServiceCard = ({ image, title, content }) => {
             />
           </a>
           {isContentVisible && (
-            <div className="mt-4 p-4 bg-gray-100 rounded-lg">{content}</div>
+            <div className="mt-4 p-4 bg-gray-100 rounded-lg text-xl">{content}</div>
           )}
         </div>
       </div>
@@ -88,7 +88,7 @@ const ServicesSection = () => {
 
         <div className="flex flex-col items-center">
           <div className="w-full lg:w-10/12 text-left mb-12 border-l-0 border-blue-500 pl-0">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl text-center font-bold leading-tight">
+            <h2 className="text-4xl text-center font-bold leading-tight">
               İngiltere'deki Göç ve Vize İşlemlerinize Kapsamlı Çözümler
             </h2>
           </div>

@@ -74,7 +74,7 @@ const TestimonialSection = () => {
     <section id="testimonial-section" className="bg-gray-100 py-10 m-2 p-2">
       <div className="max-w-7xl mx-auto overflow-hidden relative">
         <div className="w-full text-left mb-8">
-          <h5 className="text-lg font-semibold uppercase text-center">Sİzden gelenler</h5>
+          <h5 className="text-4xl font-semibold uppercase text-center">Sİzden gelenler</h5>
         </div>
 
         <div className="flex flex-col ">
@@ -95,8 +95,8 @@ const TestimonialSection = () => {
               {testimonials.map((testimonial, index) => (
                 <div key={index} className="w-full flex-shrink-0">
                   <blockquote className="text-center">
-                    <h2 className="md:text-lg text-wrap uppercase">{testimonial.title}</h2>
-                    <p className="md:text-lg text-wrap italic">{testimonial.content}</p>
+                    <h2 className="text-xl text-wrap uppercase">{testimonial.title}</h2>
+                    <p className="text-xl text-wrap italic">{testimonial.content}</p>
                     <footer className="mt-4 text-blue-600">
                       <a href={testimonial.link} className="w-full flex justify-center items-center">
                         <Image src={testimonial.logo} alt="Logo" width={100} height={100} className="mr-2 h-auto" />
