@@ -74,7 +74,7 @@ const TestimonialSection = () => {
     <section id="testimonial-section" className="bg-gray-100 py-10 m-2 p-2">
       <div className="max-w-7xl mx-auto overflow-hidden relative">
         <div className="w-full text-left mb-8">
-          <h5 className="text-4xl font-semibold uppercase text-center">Sİzden gelenler</h5>
+          <h5 className="text-4xl uppercase text-center">Sİzden gelenler</h5>
         </div>
 
         <div className="flex flex-col ">

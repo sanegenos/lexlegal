@@ -6,7 +6,7 @@ export default function Banner() {
             <div className="absolute inset-0 bg-black opacity-70 z-10"></div>
             <div className="container mx-auto flex flex-col-reverse md:flex-row items-start justify-between max-w-6xl px-6 md:px-16 lg:w-10/12">
             <div className="max-w-lg z-30 mb-8 md:mb-0">
-                <h1 className="text-4xl text-white font-bold mb-4 text-left">İngiltere’ye Yerleşim Sürecinizde Profesyonel Destek</h1>
+                <h1 className="text-4xl text-white mb-4 text-left">İngiltere’ye Yerleşim Sürecinizde Profesyonel Destek</h1>
                 <p className="text-xl mb-8 text-white">
                 Lex Legal olarak İngiltere ile ilgili tüm vize süreçleriniz ve hukuksal konularınızda destek almak için iletişim formuna bilgilerinizi bırakabilirsiniz."
                 </p>
@@ -16,7 +16,7 @@ export default function Banner() {
             </div>
 
             <div className="mx-auto text-white text-center bg-gray-600 bg-opacity-10 rounded-lg p-6 shadow-lg z-20 w-full md:w-auto">
-                <h2 className="text-4xl text-left font-bold mb-4">Ücretsiz ön görüşme için ekibimiz en kısa sürede size dönüş yapacaktır</h2>
+                <h2 className="text-4xl text-left mb-4">Ücretsiz ön görüşme için ekibimiz en kısa sürede size dönüş yapacaktır</h2>
                 <p className="text-xl text-left mb-8">Tüm vize süreçleriniz ve hukuksal konularınızda destek için formu doldurabilirsiniz.</p>
 
                 <form action="https://submit-form.com/T6Pj3IKoD">
