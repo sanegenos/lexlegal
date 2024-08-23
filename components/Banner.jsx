@@ -8,7 +8,7 @@ export default function Banner() {
                 <div className="max-w-lg z-30 mb-8 md:mb-0">
                     <h1 className="text-4xl text-white mb-4 text-left">İngiltere’ye Yerleşim Sürecinizde Profesyonel Destek</h1>
                     <p className="text-xl mb-8 text-white">
-                        Lex Legal olarak İngiltere ile ilgili tüm vize süreçleriniz ve hukuksal konularınızda destek almak için iletişim formuna bilgilerinizi bırakabilirsiniz."
+                        Lex Legal olarak İngiltere ile ilgili tüm vize süreçleriniz ve hukuksal konularınızda destek almak için iletişim formuna bilgilerinizi bırakabilirsiniz.
                     </p>
                     <a href="https://web.whatsapp.com/send?phone=447739699968&text=" target="_blank" className="text-xl inline-block bg-green-500 py-3 px-6 rounded-md hover:bg-green-400 transition text-white">
                         Whatsapp
