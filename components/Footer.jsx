@@ -13,7 +13,7 @@ export default function footer() {
             </div>
             <div className="flex space-x-4">
               <div className="w-24 flex justify-center ">
-                <img loading="lazy" src="img/oisc.gif" alt="Office of the Immigration Services Commissioner" className="h-auto w-16 md:h-20 md:w-auto" />
+                <img loading="lazy" src="img/OISC-logo-for-site.png" alt="Office of the Immigration Services Commissioner" className="h-auto w-24 md:h-20 md:w-auto" />
               </div>
               <div className='w-48 text-left'>
                 <span className="text-xl text-left">Office of the Immigration<br />
@@ -78,7 +78,7 @@ export default function footer() {
         </div>
 
         <div className="text-center md:text-right">
-          <p className="text-xl"><a href="mailto:info@lexlegal.com" className="hover:text-gray-400">contact@lexlegal.com</a></p>
+          <p className="text-xl"><a href="mailto:contact@lexlegal.com" className="hover:text-gray-400">contact@lexlegal.com</a></p>
           <p className="text-xl"><a href="tel:+447739699968" className="hover:text-gray-400">+44 77 3969 9968</a></p>
           <p className="text-xl"><a href="tel:+442039880575" className="hover:text-gray-400">+44 20 3988 0575</a></p> 
         </div>

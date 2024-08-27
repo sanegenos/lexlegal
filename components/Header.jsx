@@ -1,5 +1,5 @@
 // components/Header.jsx
-import { FaFacebook, FaTwitter, FaInstagram, FaYoutube, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaYoutube, FaLinkedin, FaEnvelope, FaPhone, FaMap } from 'react-icons/fa';
 
 export default function Header() {
     return (
@@ -11,16 +11,9 @@ export default function Header() {
                     <a href="https://www.youtube.com/@LexLegalLtd" aria-label="YouTube" className="text-gray-600 hover:text-gray-900"><FaYoutube size={30} style={{ color: '#FF0000' }} /></a>
                     <a href="https://twitter.com/lexlegal_uk" aria-label="Twitter" className="text-gray-600 hover:text-gray-900"><FaTwitter size={30} style={{ color: '#00acee' }} /></a>
                     <a href="https://www.facebook.com/lexlegaluk" aria-label="Facebook" className="text-gray-600 hover:text-gray-900"><FaFacebook size={30} style={{ color: '#3b5998' }} /></a>
-                </div>
-                <div className="mb-4 md:mb-0 text-left">
-                    <a href="https://maps.app.goo.gl/k4jSaiAuCUpUqcaz6" target="_blank" className="text-xl">
-                        Marylebone, London W1H 5PW<br/>
-                        Meridien House, 42 Upper Berkeley St,
-                    </a>
-                </div>
-                <div className="mb-4 md:mb-0 text-left">
-                    <a href="tel:+442039880575" className="hover:text-blue-900 py-3 px-6 mb-3 uppercase text-xl text-left">+44 20 3988 0575</a><br/>
-                    <a href="tel:+447739699968" className="hover:text-blue-900 py-3 px-6 mb-3 uppercase text-xl text-left">+44 77 3969 9968</a>
+                    <a href="mailto:contact@lexlegal.com" aria-label="Facebook" className="text-gray-600 hover:text-gray-900"><FaEnvelope size={30} style={{ color: '#0A66C2' }} /></a>
+                    <a href="https://maps.app.goo.gl/k4jSaiAuCUpUqcaz6" aria-label="Facebook" className="text-gray-600 hover:text-gray-900"><FaMap size={30} style={{ color: '#3b5998' }} /></a>
+                    <a href="tel:+442039880575" aria-label="Facebook" className="text-gray-600 hover:text-gray-900"><FaPhone size={30} style={{ color: '#0A66C2' }} /></a>
                 </div>
 
                 <div className="flex items-center mb-4 md:mb-0 max-w-72">
@@ -28,6 +21,8 @@ export default function Header() {
                 </div>
 
                 <div>
+                    <a href="tel:+442039880575" className="hover:text-blue-900 py-3 mb-3 uppercase text-xl text-left">+44 20 3988 0575</a>
+                    <a href="tel:+447739699968" className="hover:text-blue-900 py-3 mb-3 uppercase text-xl text-left"> | +44 77 3969 9968</a> <br/><br/>
                     <a href="tel:+447739699968" className="text-white hover:text-blue-900 bg-blue-700 hover:bg-blue-300 rounded-2xl py-3 px-6 mb-3 border-b border-blue-700 hover:border-blue-900 uppercase text-xl">Bİzİmle hemen İletİşİme geçİn</a>
                 </div>
             </div>
