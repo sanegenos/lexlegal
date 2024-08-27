@@ -12,6 +12,16 @@ export default function Header() {
                     <a href="https://twitter.com/lexlegal_uk" aria-label="Twitter" className="text-gray-600 hover:text-gray-900"><FaTwitter size={30} style={{ color: '#00acee' }} /></a>
                     <a href="https://www.facebook.com/lexlegaluk" aria-label="Facebook" className="text-gray-600 hover:text-gray-900"><FaFacebook size={30} style={{ color: '#3b5998' }} /></a>
                 </div>
+                <div className="mb-4 md:mb-0 text-left">
+                    <a href="https://maps.app.goo.gl/k4jSaiAuCUpUqcaz6" target="_blank" className="text-xl">
+                        Marylebone, London W1H 5PW<br/>
+                        Meridien House, 42 Upper Berkeley St,
+                    </a>
+                </div>
+                <div className="mb-4 md:mb-0 text-left">
+                    <a href="tel:+442039880575" className="hover:text-blue-900 py-3 px-6 mb-3 uppercase text-xl text-left">+44 20 3988 0575</a><br/>
+                    <a href="tel:+447739699968" className="hover:text-blue-900 py-3 px-6 mb-3 uppercase text-xl text-left">+44 77 3969 9968</a>
+                </div>
 
                 <div className="flex items-center mb-4 md:mb-0 max-w-72">
                     <img src="img/logolegal.png" />

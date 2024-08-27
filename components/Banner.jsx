@@ -1,10 +1,11 @@
 // components/Banner.jsx
 export default function Banner() {
     return (
+        <>
         <section id="banner" className="bg-cover bg-center bg-white bg-no-repeat py-16 relative min-h-96"
             style={{ backgroundImage: "url('img/London-Banner.webp')" }} >
             <div className="absolute inset-0 bg-black opacity-70 z-10"></div>
-            <div className="container mx-auto flex flex-col items-start justify-between max-w-6xl px-6 md:px-16 lg:w-1/2">
+            <div className="container mx-auto flex flex-col md:flex-row items-start justify-between max-w-6xl px-6 md:px-16 lg:w-full">
                 <div className="max-w-lg z-30 mb-8 md:mb-0">
                     <h1 className="text-4xl text-white mb-4 text-left">İngiltere’ye Yerleşim Sürecinizde Profesyonel Destek</h1>
                     <p className="text-xl mb-8 text-white">
@@ -73,6 +74,7 @@ export default function Banner() {
                 </div>
             </div>
         </section>
+        </>
     );
   }
   
