@@ -3,7 +3,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaYoutube, FaLinkedin, FaEnvelope, 
 
 export default function Header() {
     return (
-        <header id="header" className="bg-white py-1 flex flex-col justify-center items-center w-full border-b relative z-20">
+        <header id="header" className="bg-white py-2 flex flex-col justify-center items-center w-full border-b relative z-20">
             <div className="container mx-auto flex flex-col md:flex-row justify-between items-center border-b">
                 <div className="flex space-x-4 mb-4 md:mb-0">
                     <a href="https://www.instagram.com/lexlegal_ltd/" aria-label="Instagram" className="text-gray-600 hover:text-gray-900"><FaInstagram size={30} style={{ color: '#C13584' }} /></a>
