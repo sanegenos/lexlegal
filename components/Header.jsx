@@ -3,8 +3,8 @@ import { FaFacebook, FaTwitter, FaInstagram, FaYoutube, FaLinkedin, FaEnvelope, 
 
 export default function Header() {
     return (
-        <header id="header" className="bg-white py-4 flex flex-col justify-center items-center w-full border-b relative z-20">
-            <div className="container mx-auto flex flex-col md:flex-row justify-between items-center py-6 border-b">
+        <header id="header" className="bg-white py-1 flex flex-col justify-center items-center w-full border-b relative z-20">
+            <div className="container mx-auto flex flex-col md:flex-row justify-between items-center border-b">
                 <div className="flex space-x-4 mb-4 md:mb-0">
                     <a href="https://www.instagram.com/lexlegal_ltd/" aria-label="Instagram" className="text-gray-600 hover:text-gray-900"><FaInstagram size={30} style={{ color: '#C13584' }} /></a>
                     <a href="https://tr.linkedin.com/company/lexlegal-ltd" aria-label="LinkedIn" className="text-gray-600 hover:text-gray-900"><FaLinkedin size={30} style={{ color: '#0A66C2' }} /></a>
@@ -20,10 +20,12 @@ export default function Header() {
                     <img src="img/logolegal.png" />
                 </div>
 
-                <div>
-                    <a href="tel:+442039880575" className="hover:text-blue-900 py-3 mb-3 uppercase text-xl text-left">+44 20 3988 0575</a>
-                    <a href="tel:+447739699968" className="hover:text-blue-900 py-3 mb-3 uppercase text-xl text-left"> | +44 77 3969 9968</a> <br/><br/>
-                    <a href="tel:+447739699968" className="text-white hover:text-blue-900 bg-blue-700 hover:bg-blue-300 rounded-2xl py-3 px-6 mb-3 border-b border-blue-700 hover:border-blue-900 uppercase text-xl">Bİzİmle hemen İletİşİme geçİn</a>
+                <div className="flex flex-col item-center justify-center">
+                    <div>
+                        <a href="tel:+442039880575" className="hover:text-blue-900 uppercase text-xl text-left">+44 20 3988 0575 </a>
+                        <a href="tel:+447739699968" className="hover:text-blue-900 uppercase text-xl text-left"> | +44 77 3969 9968</a>
+                    </div>
+                    <a href="tel:+447739699968" className="text-white hover:text-blue-900 bg-blue-700 hover:bg-blue-300 rounded-2xl py-1 px-5 mb-1 border-b border-blue-700 hover:border-blue-900 uppercase font-semibold text-xl">Bİzİmle hemen İletİşİme geçİn</a>
                 </div>
             </div>
 
