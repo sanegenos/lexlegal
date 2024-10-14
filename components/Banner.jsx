@@ -17,7 +17,7 @@ export default function Banner() {
                 </div>
 
                 <div className="mx-auto text-white text-center bg-gray-600 bg-opacity-10 rounded-lg p-6 shadow-lg z-20 w-full md:w-auto">
-                    <h2 className="text-4xl text-left mb-4">Ücretsiz ön görüşme için ekibimiz en kısa sürede size dönüş yapacaktır</h2>
+                    <h2 className="text-4xl text-left mb-4">Ücretsiz ön görüşme için ekibimiz en kısa sürede size dönüş yapacaktır.</h2>
                     <p className="text-xl text-left mb-8">Tüm vize süreçleriniz ve hukuksal konularınızda destek için formu doldurabilirsiniz.</p>
 
                     <form action="https://submit-form.com/T6Pj3IKoD">
